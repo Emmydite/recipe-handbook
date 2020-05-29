@@ -50,7 +50,7 @@ class Main extends Component {
                      <img 
                      src={this.props.img}
                      className="box__img"
-                     alt="Image"/>
+                     alt={this.props.title}/>
                      {editable && editImg}
                   </div>
                   </div>

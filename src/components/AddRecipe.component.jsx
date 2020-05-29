@@ -68,24 +68,24 @@ import {FaTimes} from 'react-icons/fa'
                    <form className="form" onSubmit={this.handleSubmit.bind(this)}>
                       <FaTimes className=" zmdi-close pull-right" onClick={this.props.toggleHidden}/>
                       <h2 className="form__title">Add Recipe</h2>
-                      
-                      <label for="recipeName">Recipe Name *</label>
+
+                      <label htmlFor="recipeName">Recipe Name *</label>
                       <input 
                       id="recipeName"
                       type="text"
                       onChange={this.handleTitleChange.bind(this)}
                       />
-                      <label for="ingredients"> Ingredients *</label>
+                      <label htmlFor="ingredients"> Ingredients *</label>
                       <textarea 
                        id="ingredients"
                        onChange={this.handleIngredientChange.bind(this)}
                       />
-                       <label for="instructions"> Instructions *</label>
+                       <label htmlFor="instructions"> Instructions *</label>
                       <textarea 
                        id="instructions"
                        onChange={this.handleInstructionChange.bind(this)}
                       />
-                    <label for="imageUrl">Image URL *</label>
+                    <label htmlFor="imageUrl">Image URL *</label>
                       <input 
                       id="imageUrl"
                       type="text"

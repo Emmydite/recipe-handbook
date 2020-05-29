@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {FaLinkedin, FaGithub, FaTwitter} from 'react-icons/fa'
+import {FaLinkedin, FaGithub, FaTwitter, FaHeart} from 'react-icons/fa'
 
  class Footer extends Component {
     render() {
@@ -28,7 +28,7 @@ import {FaLinkedin, FaGithub, FaTwitter} from 'react-icons/fa'
 
                         </li>
                        </ul>
-
+                      <h5>Made with <FaHeart /> by Steve</h5>
                    </div>
                </div>
 

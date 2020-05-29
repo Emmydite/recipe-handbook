@@ -9,6 +9,7 @@ import RecipeBox from './receipeBox.component'
          };
      }
     render() {
+        localStorage.clear();
         return (
            <RecipeBox />
         )
